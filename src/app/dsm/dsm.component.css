@@ -1,0 +1,16 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.img{
+    margin-top: 30px;
+}
+.words{
+    font-size: x-large;
+    font-weight: 900;
+    color: rgb(39, 24, 175);
+    margin-top: 30px;
+}

@@ -1,0 +1,45 @@
+.main{
+    display: flex;
+    /* height: 100%; */
+    width: 100%;
+    justify-content: center;
+    
+}
+
+.form{
+    background-color: blueviolet;
+    height: 70vh;
+    padding: 20px;
+    align-self: center;
+    margin-top: 3%;
+    /* border-radius: 50px; */
+}
+
+.form>div{
+    margin-bottom: 30px;
+}
+
+#names, #email {
+    margin-left: 20px;
+}
+.inputc{
+    display: flex;
+    flex-direction: column;
+}
+.btn{
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(79, 30, 124);
+    color: white;
+}
+#email, #names, #comment{
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+.btn:hover{
+    background-color: rgb(30, 18, 41);
+    text-shadow: 20px;
+    cursor: pointer;
+}
